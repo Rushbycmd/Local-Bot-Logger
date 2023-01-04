@@ -19,6 +19,7 @@ LBL does not log tokens or private information, it only logs messages in a json 
 ## Dependencies
 Node.js, 
 Libraries include FS, Discord
+And an ENV file 
 ```env
 export token=""
 ```
