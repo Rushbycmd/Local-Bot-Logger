@@ -35,6 +35,11 @@ client.on("messageCreate", (message) => {
       "Message Content": [message.content],
     },
   };
+	  // Check if the "channel" folder exists.
+  if (!fs.existsSync("messages")) {
+    // If the folder doesn't exist, create it.
+    fs.mkdirSync("messages");
+  }
 
   // Check if the JSON file exists.
   if (!fs.existsSync(`messages/${message.author.id}.json`)) {
