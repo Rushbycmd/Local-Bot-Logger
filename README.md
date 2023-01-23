@@ -1,7 +1,7 @@
 # Local Bot Logger
 ![badge](https://img.shields.io/github/license/Rushbycmd/Local-Bot-Logger?style=for-the-badge)![badge](https://img.shields.io/github/languages/code-size/Rushbycmd/Local-Bot-Logger?color=BLUE&style=for-the-badge)
 
-
+https://jsoncomp.web.app/ <====== Made a Parsing/Comp Websites specializing for viewing the jsons.
 LBL does not log tokens or private information, it only logs messages in a json file format locally. 
 ```json  
  {
